@@ -1,8 +1,9 @@
 import React from 'react'
+import Sidebar from '../Component/EventSidebarComponent/Sidebar'
 
 const Event = () => {
   return (
-    <div>Event</div>
+    <Sidebar />
   )
 }
 

@@ -2,3 +2,8 @@ body{
     margin:0px;
     padding:0px;
 }
+
+@font-face {
+    font-family: 'Vintage Warehouse';
+    src: local('Vintage Warehouse'), url("./Fonts/Vintage\ Warehouse.ttf") format('truetype');
+}
