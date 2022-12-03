@@ -1,0 +1,13 @@
+.container{
+    padding:0px;
+    margin:0px;
+    width:100%;
+    background:url('../Images/bg.png') repeat #F6E8CE;
+}
+
+.ticket-section{
+   position: relative;
+   top:-150px; 
+}
+
+

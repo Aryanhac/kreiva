@@ -1,0 +1,201 @@
+@import url('https://fonts.cdnfonts.com/css/vintage-warehouse');
+@import url('https://fonts.cdnfonts.com/css/the-goldsmith-vintage');
+
+.container{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    z-index: -1;
+}
+
+.clip{
+    display:flex;
+    justify-content: center;
+    z-index: 2;
+}
+
+.clip-img{
+    background: url('../../Images/clip.png');
+    background-repeat: no-repeat;
+    width:174px;
+    height:166px;
+    display:flex;
+    justify-content: center;
+}
+
+.clip-day{
+    position: relative;
+    top:93px;
+    color:white;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    font-family: 'The Goldsmith Vintage', sans-serif;                                              
+}
+
+.timeline{
+    margin-top: 50px;
+    display:flex;
+    flex-direction: column;
+}
+
+.timelineDiv{
+    display: flex;
+    justify-content: center;
+    height:190px;
+    margin-bottom: 30px;
+}
+
+.ticket{
+    background: url('../../Images/ticket.png');
+    background-repeat: no-repeat;
+    margin:0px 40px 0px 40px;
+    width:433px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ticket-content{
+    display:flex;
+    flex-direction: column;
+}
+
+.ticket-content-event{
+    border-bottom: 4px dotted white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    font-family: 'Vintage Warehouse', sans-serif;
+    color:white;
+    padding: 8px 45px 8px 45px;
+}
+
+.ticket-content-event-time{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    font-family:'Vintage Warehouse', sans-serif;
+    color:#5B3B2C;
+    padding: 8px 45px 8px 45px;
+}
+
+.stick{
+    position:relative;
+    top:-50px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
