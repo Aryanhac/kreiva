@@ -1,0 +1,22 @@
+.container{
+    width:100vw;
+    height:100vh;
+    background: #DAA99A;
+}
+
+.zig-zag{
+    height:50%;
+    background: #DAA99A;
+}
+
+.zig-zag::before{
+    content:'';
+    position:relative;
+    top:-15px;
+    z-index: 1;
+    width:100%;
+    height:15px;
+    display:block;
+    background: linear-gradient(-45deg,transparent 33.33%,#DAA99A 33.33%,#DAA99A 66.66%,transparent 66.66%),linear-gradient(45deg,transparent 33.33%,#DAA99A 33.33%,#DAA99A 66.66%,transparent 66.66%);
+    background-size: 30px 60px;
+}

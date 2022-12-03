@@ -1,8 +1,12 @@
-import Timeline from "./Pages/Timeline";
+// import Timeline from "./Pages/Timeline";
+// import UpperSection from "./Component/EventPageComponent/UpperSection";
+import Event from "./Pages/Event";
 function App() {
   return (
     <div className="App">
-      <Timeline></Timeline>
+      {/* <Timeline></Timeline> */}
+      {/* <UpperSection></UpperSection> */}
+      <Event></Event>
     </div>
   );
 }

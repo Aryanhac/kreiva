@@ -1,0 +1,77 @@
+.frame{
+    margin:0px;
+    padding: 0px;
+    width:100%;
+    height:50%;
+    position:relative;
+    z-index: 0;
+    background: #BD6272; 
+
+}
+
+.rect{
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    position:absolute;
+}
+
+#rectangle1{
+    background: rgba(253,210,218,.04);
+    clip-path: polygon(100% 0, 100% 23%, 50% 0, 50% 0);
+}
+#rectangle2{
+    background: rgba(253,210,218,.04);
+    clip-path: polygon(100% 59%, 100% 36%, 50% 0, 50% 0);
+}
+#rectangle3{
+    background: rgba(253,210,218,.04);
+    clip-path: polygon(100% 72%, 100% 95%, 50% 0, 50% 0);
+}
+#rectangle4{
+    background: rgba(253,210,218,.04);
+    clip-path: polygon(82% 100%, 93% 100%, 50% 0, 50% 0);
+}
+#rectangle5{
+    background: rgba(253,210,218,.04);
+    clip-path: polygon(73% 100%, 63% 100%, 50% 0, 50% 0);
+}
+#rectangle6{
+    background: rgba(253,210,218,.04);
+    clip-path: polygon(45% 100%, 56% 100%, 50% 0, 50% 0);
+}
+#rectangle7{
+    background: rgba(253,210,218,.04);
+    clip-path: polygon(38% 100%, 27% 100%, 50% 0, 50% 0);
+}
+#rectangle8{
+    background: rgba(253,210,218,.04);
+    clip-path: polygon(9% 100%, 21% 100%, 50% 0, 50% 0);
+}
+#rectangle9{
+    background: rgba(253,210,218,.04);
+    clip-path: polygon(0 95%, 0 72%, 50% 0, 50% 0);
+}
+#rectangle10{
+    background: rgba(253,210,218,.04);
+    clip-path: polygon(0 36%, 0 59%, 50% 0, 50% 0);
+}
+#rectangle11{
+    background: rgba(253,210,218,.04);
+    clip-path: polygon(0 23%, 0 0, 50% 0, 50% 0);
+}
+
+.heading{
+    position:absolute;
+    width:100%;
+    top:20%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    font-family: 'Vintage Warehouse', sans-serif;
+    color: #7E142C;
+    
+}
