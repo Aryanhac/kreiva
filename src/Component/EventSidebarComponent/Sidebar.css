@@ -1,0 +1,45 @@
+.sidebar {
+    position: sticky;
+    height: 100vh;
+    width: 190px;
+    background-image: url("../../Images/EventSidebar.png");
+}
+
+.sidebar__wrapper {
+    font-family: 'Vintage Warehouse', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 5%;
+    color: #771223;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding-top: 35%;
+}
+
+.sidebar__wrapper div {
+    padding: 6%;
+    margin-left: 1%;
+}
+
+.sidebar__wrapper--active {
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidebar__wrapper--active:hover {
+    cursor: pointer;
+}
+
+.sidebar__wrapper--inactive:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.title a {
+    color: inherit;
+    text-decoration: none;
+}

@@ -2,3 +2,13 @@ body{
     margin:0px;
     padding:0px;
 }
+
+@font-face {
+    font-family: 'Vintage Warehouse';
+    src: local('Vintage Warehouse'), url("./Fonts/Vintage_Warehouse.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'The Goldsmith Vintage';
+    src: local('The Goldsmith Vintage'), url("./Fonts/The_Goldsmith_Vintage.ttf") format('truetype');
+}
