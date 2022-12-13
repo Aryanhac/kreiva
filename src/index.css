@@ -12,3 +12,28 @@ body{
     font-family: 'The Goldsmith Vintage';
     src: local('The Goldsmith Vintage'), url("./Fonts/The_Goldsmith_Vintage.ttf") format('truetype');
 }
+
+@font-face {
+    font-family: 'Nunito-Black';
+    src: local('Nunito-Black'), url("./Fonts/Nunito-Black.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'Barlow Semi Condensed';
+    src: local('BarlowSemiCondensed'), url("./Fonts/BarlowSemiCondensed.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'wellfleet';
+    src: local('wellfleet'), url("./Fonts/wellfleet.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'Market_Deco';
+    src: local('Market_Deco'), url("./Fonts/Market_Deco.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'Viga-Regular';
+    src: local('Viga-Regular'), url("./Fonts/Viga-Regular.otf") format('truetype');
+}
+@font-face {
+    font-family: 'BarlowCondensed-Regular';
+    src: local('BarlowCondensed-Regular'), url("./Fonts/BarlowCondensed-Regular.ttf") format('truetype');
+}

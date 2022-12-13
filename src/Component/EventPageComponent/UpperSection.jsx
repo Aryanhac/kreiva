@@ -14,6 +14,13 @@ const UpperSection = () => {
         <div className="rect" id='rectangle9'></div>
         <div className="rect" id='rectangle10'></div>
         <div className="rect" id='rectangle11'></div>
+        <div className='heading'>
+          <div className='heading-comp'>
+            <hr className='line' />
+            <div>DJ NIGHT</div>
+            <hr className='line'/>
+         </div>   
+         </div>
     </div>
   )
 }

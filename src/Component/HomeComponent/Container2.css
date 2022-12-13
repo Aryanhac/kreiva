@@ -1,0 +1,21 @@
+.home-container2{
+    height:176px;
+    background: rgba(184, 85, 108, 1);
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.home-container2 hr{
+    margin: 0px;
+    position: relative;
+    top: 20px;
+    border: none;
+    border-top: 2px dashed white;
+}
+
+.home-container2 img{
+    position:relative;
+    top:-50px;
+    left:65px;
+}

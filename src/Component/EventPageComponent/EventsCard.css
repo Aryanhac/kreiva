@@ -1,0 +1,9 @@
+.parti-event-card{
+    background: url('../../Images/partiEventCardbg.png');
+    width:263px;
+    height:206px;
+    /* display:flex;
+    justify-content: center;
+    align-items: center; */
+    margin:15px;
+}

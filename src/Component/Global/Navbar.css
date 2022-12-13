@@ -1,0 +1,43 @@
+.navbar-container{
+    width: 100%;
+    height:60px;
+    position:absolute;
+    top:10px;
+    left:0px;
+    background:#F2D1B4;
+    display:flex;
+    align-items: center;
+    color:#642400;
+    font-family: 'BarlowCondensed-Regular';
+    z-index: 3;
+}
+
+.navbar-logo{
+    position:absolute;
+    left:5%; 
+}
+
+.navbar-box{
+    position:absolute;
+    right:13%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Barlow;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    text-align: left;
+}
+
+.navbar-box div{
+    margin-left:10%;
+    cursor: pointer;
+}
+
+.navbar-box div a{
+    text-decoration: none;
+    color:#642400;
+}
+

@@ -4,7 +4,7 @@ import './Ticket.css'
 
 const Ticket = ({info}) => {
   return (
-    <div className='container'>
+    <div className='ticket-container'>
         <div className='clip'>
             <div className='clip-img'>
                <div className='clip-day'>

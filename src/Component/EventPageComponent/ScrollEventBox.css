@@ -1,0 +1,18 @@
+.event-slide-container{
+ position:relative;
+ /* overflow: hidden; */
+ padding:26px;
+}
+
+.event-slide-container-box{
+   padding:0 10px;
+   display:flex;
+   scroll-behavior: smooth;
+}
+
+.emptyContainer{
+    border:2px solid Black;
+    width:263px;
+    height:206px;
+    margin:15px;
+}

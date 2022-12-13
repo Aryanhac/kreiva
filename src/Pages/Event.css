@@ -7,16 +7,25 @@
 .zig-zag{
     height:50%;
     background: #DAA99A;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .zig-zag::before{
     content:'';
-    position:relative;
-    top:-15px;
+    position:absolute;
+    top:48%;
     z-index: 1;
     width:100%;
-    height:15px;
+    height:5%;
     display:block;
     background: linear-gradient(-45deg,transparent 33.33%,#DAA99A 33.33%,#DAA99A 66.66%,transparent 66.66%),linear-gradient(45deg,transparent 33.33%,#DAA99A 33.33%,#DAA99A 66.66%,transparent 66.66%);
     background-size: 30px 60px;
+}
+
+.instrumentImg{
+    position:absolute;
+    bottom:0px;
+    right:0px;
 }

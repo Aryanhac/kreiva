@@ -5,7 +5,7 @@ import './Timeline.css'
 import { TimelineData } from '../Data/TimelineData'
 const Timeline = () => {
   return (
-    <div className='container'>
+    <div className='timeline-container'>
       <div className='upperframe-section'>
         <UpperFrame></UpperFrame>
       </div>

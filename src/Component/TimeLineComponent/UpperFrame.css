@@ -1,13 +1,14 @@
-.frame{
+.upperframe-container{
     margin:0px;
     padding: 0px;
     width:99%;
     height:300px;
     position:relative;
+    top:70px;
     z-index: 1;
 }
 
-.rect{
+.upperframe-rect{
     top:0px;
     left:0px;
     width:100%;
@@ -15,49 +16,49 @@
     position:absolute;
 }
 
-#rectangle1{
+#upperframe-rectangle1{
     background: linear-gradient(to top, rgba(101, 64, 98, 1), rgba(101, 64, 98, .025));
     clip-path: polygon(86% 0, 100% 0%, 50% 100%, 50% 100%);
 }
-#rectangle2{
+#upperframe-rectangle2{
     background: linear-gradient(to top, rgba(145, 106, 144,1), rgba(145, 106, 144, .025));
     clip-path: polygon(86% 0, 73% 0, 50% 100%, 50% 100%);
 }
-#rectangle3{
+#upperframe-rectangle3{
     background: linear-gradient(to top, rgba(101, 214, 206, 1), rgba(101, 214, 206, .025));
     clip-path: polygon(61% 0, 73% 0, 50% 100%, 50% 100%);
 }
-#rectangle4{
+#upperframe-rectangle4{
     background: linear-gradient(to top, rgba(50, 155, 142, 1), rgba(50, 155, 142, .025));
     clip-path: polygon(61% 0, 50% 0, 50% 100%, 50% 100%);
 
 
 }
-#rectangle5{
+#upperframe-rectangle5{
     background: linear-gradient(to top, rgba(255, 233, 214, 1), rgba(255, 233, 214, .6));
     clip-path: polygon(39% 0, 50% 0, 50% 100%, 50% 100%);
 
 
 }
-#rectangle6{
+#upperframe-rectangle6{
     background: linear-gradient(to top,  rgba(234, 204, 181, 1),  rgba(234, 204, 181, .5));
     clip-path: polygon(39% 0, 27% 0, 50% 100%, 50% 100%);
 
 
 }
-#rectangle7{
+#upperframe-rectangle7{
     background: linear-gradient(to top, rgba(250, 149, 121, 1), rgba(250, 149, 121,.025));
     clip-path: polygon(14% 0, 27% 0, 50% 100%, 50% 100%);
 
 
 }
-#rectangle8{
+#upperframe-rectangle8{
     background: linear-gradient(to top, rgba(221, 112, 87, 1), rgba(221, 112, 87, .025));
     clip-path: polygon(14% 0, 0 0, 50% 100%, 50% 100%);
 
 }
 
-.heading{
+.upperframe-heading{
     position:absolute;
     width:100%;
     top:20%;

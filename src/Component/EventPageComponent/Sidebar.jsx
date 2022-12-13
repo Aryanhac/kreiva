@@ -40,7 +40,7 @@ const Sidebar = () => {
                             return (
                                 <div key={idx} className="sidebar__wrapper--inactive" onClick={() => { setActiveTab(idx) }}>
                                     <div className="title">
-                                        <a href={link.to}>
+                                        <a href={link.to} onClick={(e)=>{e.preventDefault()}}>
                                             {link.title}
                                         </a>
                                     </div>
@@ -51,7 +51,7 @@ const Sidebar = () => {
                         return (
                             <div key={idx} className="sidebar__wrapper--active">
                                 <div className="title">
-                                    <a href={link.to}>
+                                    <a href={link.to} onClick={(e)=>{e.preventDefault()}}>
                                         {link.title}
                                     </a>
                                 </div>

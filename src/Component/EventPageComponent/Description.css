@@ -1,0 +1,112 @@
+.description-container{
+    width:60%;
+    background: #F2D1B4;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.description-upperBox{
+    height:30%;
+    width:100%;
+    display:flex;
+}
+
+.description-convener{
+  width:30%;
+  display:flex;
+  flex-direction: column;
+  text-align: right;
+  color:#5C333C;
+
+}
+
+.description-convener h4{
+    font-family: Nunito-Black;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0.05em;   
+    margin-bottom: 0px;
+}
+
+.description-convener h3{
+    font-family: Nunito-Black;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    margin:0px;
+    
+}
+
+.description-event-time{
+   width:40%;
+   display:flex;
+   justify-content: center;
+   align-items: flex-end;
+   padding-left:20px;
+   padding-right:20px;
+}
+
+.description-event-time-card{
+    background: url('../../Images/eventtimecard.png');
+    height:50px;
+    width:361px;
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    color: #FFD68B;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.description-co-convener{
+   width:30%;
+   display:flex;
+   flex-direction: column;
+   text-align: left;
+   color: #5C333C;
+
+}
+
+.description-co-convener h4{
+    font-family: Nunito-Black;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    margin-bottom: 0px;
+}
+
+.description-co-convener h3{
+    font-family: Nunito-Black;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    margin:0px;
+}
+
+.description-lowerBox{
+    min-height:130px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding:4px;
+}
+
+.description-lowerBox-detail{
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    
+}

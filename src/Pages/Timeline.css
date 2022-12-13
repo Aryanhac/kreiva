@@ -1,4 +1,4 @@
-.container{
+.timeline-container{
     padding:0px;
     margin:0px;
     width:100%;
@@ -7,7 +7,7 @@
 
 .ticket-section{
    position: relative;
-   top:-150px; 
+   top:-90px; 
 }
 
 

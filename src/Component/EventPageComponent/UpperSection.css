@@ -65,13 +65,24 @@
 .heading{
     position:absolute;
     width:100%;
-    top:20%;
-    text-align: center;
+    top:30%;
     font-size: 40px;
     font-weight: 400;
     line-height: 46px;
     letter-spacing: 0.05em;
-    font-family: 'Vintage Warehouse', sans-serif;
-    color: #7E142C;
-    
+    font-family: 'The Goldsmith Vintage';
+    color: white;
+    display:flex;
+    justify-content: center;
+}
+
+.heading-comp{
+    display:flex;
+    min-width:500px;
+    align-items: center;
+    justify-content: center;
+}
+.line{
+    width:100px;
+    margin:20px;
 }
