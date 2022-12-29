@@ -1,0 +1,306 @@
+.Footer{
+    background-color: #B8556C;
+}
+.footer-container{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    width:100%;
+    text-align:left;
+    /* background-color:rgba(184, 85, 108, 1); */
+    color:white;
+   
+min-height:70vh;
+max-height:100vh;
+
+/* height: max-content; */
+
+/* top: 3456px; */
+
+background-color: #B8556C;
+   
+
+}
+.footer{
+    width: 100%;
+    height: auto;
+
+    background-color: #B8556C;
+    color:white;
+    display: flex;
+    /* position: relative; */
+
+}
+
+.footer p{
+    /* position: absolute;
+width: 201px;
+height: 22px;
+left: 104px;
+top: 597px; */
+
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+
+color: #FFF8F6;
+
+}
+
+.contain{
+    bottom: -40%;
+/* text-align: bottom; */
+position: relative;
+}
+.contain1{
+    bottom: -35%;
+/* text-align: bottom; */
+position: relative;
+}
+
+.contain2{
+    bottom: -80%;
+    position: relative;
+}
+
+.line{
+   
+   /* position: relative; */
+   /* bottom: 0%; */
+    height:40%;
+    width:100%;
+    /* text-align:bottom; */
+}
+
+
+.footer-container.hr{
+    color: white;
+}
+
+.left-container{
+    
+    width:60vw;
+    padding:5px;
+  
+     
+}
+
+.right-container{
+    width:25vw;
+    padding:5px;
+   
+}
+
+.middle-container{
+    width:10vw;
+    padding:5px;
+    /* background-color:yellow */
+}
+
+.py-3{
+    padding-left: 5vw;
+}
+
+.icon{
+    display: flex;
+    justify-content: space-between; 
+    width: 25%;
+    padding-top: 10px;
+    /* background-color: #fff; */
+    color: aliceblue;
+}
+
+.reactangle{
+    position: relative;
+top: -50px;
+margin-bottom: -50px;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+  .footer p{
+    margin-left: 80px;
+    margin-top: 35px;
+  }
+/* .middle-container img{
+    width: 14vw;
+height: 2px;
+} */
+
+.footer-container ul{
+    text-decoration: none;
+    list-style-type: none
+}
+
+
+
+.contain p{
+    /* position: absolute; */
+width: 566px;
+height: 26px;
+/* left: 104px; */
+/* top: 211px; */
+
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 26px;
+letter-spacing: 0.05em;
+
+color: #F0DDAA;
+}
+
+.container h2{
+    /* position: absolute; */
+width: 111px;
+height: 26px;
+left: 104px;
+top: 291px;
+
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 26px;
+letter-spacing: 0.05em;
+
+color: #FFF8F6;
+}
+.contain1 p{
+    /* position: absolute; */
+/* width: 58px; */
+/* height: 26px; */
+/* left: 863px; */
+/* top: 211px; */
+
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+/* line-height: 26px; */
+letter-spacing: 0.05em;
+
+color: #F0DDAA;
+}
+.line para {
+    
+/* position: absolute; */
+width: 300px;
+height: 22px;
+left: 104px;
+top: 339px;
+
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+
+color: #FFF8F6;
+}
+.contain2 p{
+    
+/* position: absolute; */
+/* width: 116px; */
+/* height: 26px; */
+/* left: 1099px; */
+/* top: 211px; */
+
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 26px;
+letter-spacing: 0.05em;
+
+color: #F0DDAA;
+}
+
+.middle-container ul li{
+    
+    /* position: absolute; */
+    /* width: 49px; */
+    /* height: 22px; */
+    /* left: 863px; */
+    /* top: 291px; */
+    
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    letter-spacing: 0.05em;
+    
+    color: #FFF8F6;
+    padding-top: 5px;
+    
+    }
+
+    .right-container ul p{
+        /* position: absolute; */
+/* width: 60px;
+height: 22px;
+left: 1099px;
+top: 291px; */
+
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+
+color: #F0DDAA;
+    }
+
+   
+
+    .right-container ul li{
+        /*         
+        position: absolute;
+        width: 277px;
+        height: 22px;
+        left: 1099px;
+        top: 333px; */
+        
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        /* line-height: 22px; */
+        /* identical to box height */
+        
+        letter-spacing: 0.05em;
+        
+        color: #FFF8F6;
+            }
+.degin{
+    position: relative;
+    top: -21px;
+    margin-bottom: -28px;
+}
+            .degin img{
+
+                width: 100vw;
+                margin-bottom: 0px;
+                height: 120px;
+            }
