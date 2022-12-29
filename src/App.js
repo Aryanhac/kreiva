@@ -3,6 +3,8 @@ import Timeline from "./Pages/Timeline";
 import Home from "./Pages/Home";
 import Navbar from "./Component/Global/Navbar";
 import Event from "./Pages/Event";
+import Footer from './Component/Global/Footer';
+
 function App() {
   return (
      <Router>
@@ -12,6 +14,7 @@ function App() {
         <Route exact path='/Events' element={<Event></Event>}></Route>
         <Route exact path='/Timeline' element={<Timeline></Timeline>}></Route>
       </Routes>
+      <Footer></Footer>
      </Router>
   );
 }
