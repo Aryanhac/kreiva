@@ -1,9 +1,10 @@
-import React from 'react'
+// import React from 'react'
 import facebook from '../../Images/Facebook.png'
 import instagram from '../../Images/instagram.png'
 import twitter from '../../Images/twitter.png'
 import star from '../../Images/Frame3.png'
-
+import Aditya from './aa.js'
+import React, { useState, useEffect } from "react";
 import './Container1.css'
 
 const Container1 = () => {
@@ -13,6 +14,7 @@ const Container1 = () => {
         <div className='home-container1-box1-box1'></div>
         <div className='home-container1-box1-box2'>Cultural fest at IIIT Vadodara</div>
         <div className='home-container1-box1-box3'>15-16 Jan, 2023</div>
+        <div  className='home-timer'><Aditya></Aditya></div>
       </div>
       <div  className='home-container1-box2'>
         <h2 className='home-container1-box2-box1'>About the fest</h2>

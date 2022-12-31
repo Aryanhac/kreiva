@@ -9,8 +9,17 @@
     padding:0px;
 }
 
+
+.home-timer{
+    
+        position: absolute;
+    left: 10%;
+    bottom: -18%;
+    z-index: 1;
+}
 .home-container1-box1{
     width:50%;
+    
 }
 
 .home-container1-box1-box1{

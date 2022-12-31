@@ -6,7 +6,7 @@ const Container2 = () => {
   return (
     <div className='home-container2'>
         <hr  />
-        <img src={block} alt="block.png" />
+       
     </div>
   )
 }

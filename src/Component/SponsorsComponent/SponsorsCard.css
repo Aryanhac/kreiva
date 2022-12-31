@@ -1,0 +1,13 @@
+.Spon{
+    background-image: url('../../Images/SponsorsBackground.png');
+    /* height: 164px;
+    width: 284px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 28px 35px;
+    border-radius: 10px;
+}
+.Sponimg{
+    width: 170px;
+    height: 60px;
+}

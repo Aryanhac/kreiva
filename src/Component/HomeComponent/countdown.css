@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Wellfleet&display=swap');
+*{
+    color: #4B0012;
+}
+@font-face {
+    font-family: goldsmith;
+    src: url('../../Fonts/The_Goldsmith_Vintage.ttf');
+}
+.begin{
+    font-family: 'Wellfleet', cursive;
+color: white;
+line-height: 10px;
+margin-top: -2px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.timer-container{
+  /* background-color: pink ; */
+
+  background-image: url('../../Images/Frame\ 134.svg');
+    padding: 35px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 230px;
+    width: 88%;
+}
+
+.uppertime{
+    text-align: center;
+    font-family: goldsmith;
+    font-weight: 800;
+font-size: 27px;
+line-height: 10px;
+}
+.day{
+    
+    font-size: 20px;
+}
+.lowertime{
+
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top:0px ;
+}
+.min{
+    
+    font-family: goldsmith;
+    font-weight: 800;
+    margin: 8px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 10px;
+    text-align: center;
+}
+.hr{
+    font-family: goldsmith;
+    font-weight: 800;
+    margin: 8px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 10px;
+    text-align: center;
+}
+.sec{
+    font-family: goldsmith;
+    font-weight: 800;
+    margin: 8px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 10px;
+    text-align: center;
+
+}

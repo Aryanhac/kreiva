@@ -1,0 +1,26 @@
+.line{
+    width:100px;
+    margin:20px;
+}
+.text{
+    color: white;
+}
+.head{
+    position:absolute;
+    width:100%;
+    top:15%;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    font-family: 'The Goldsmith Vintage';
+    color: white;
+    display:flex;
+    justify-content: center;
+}
+.head-comp{
+    display:flex;
+    min-width:500px;
+    align-items: center;
+    justify-content: center;
+}

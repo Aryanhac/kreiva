@@ -1,0 +1,26 @@
+body{
+    background-color:#daa99a ;
+}
+.team {
+  width: 100vw;
+  height: 100vh;
+  background: #daa99a;
+}
+
+.outa { 
+    position: absolute;
+    top:25%;
+    left: 15%;
+    display: flex;
+    justify-content:center;
+    
+
+}
+.profile-card {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  justify-content:space-around;
+  flex-wrap: wrap;
+
+}
